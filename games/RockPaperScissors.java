@@ -37,6 +37,5 @@ public class RockPaperScissors extends Game {
             System.out.println("You lose!");
             score = 0;
         }
-        scanner.close();
     }
 }

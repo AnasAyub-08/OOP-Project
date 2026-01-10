@@ -25,12 +25,12 @@ public class Arcade {
                 case 1:
                     playGame(new RockPaperScissors());
                     break;
-                case 2:
-                    playGame(new NumberGuessGame());
-                    break;
-                case 3:
-                    playGame(new QuizGame());
-                    break;
+                // case 2:
+                //     playGame(new NumberGuessGame());
+                //     break;
+                // case 3:
+                //     playGame(new QuizGame());
+                //     break;
                 case 4:
                     player.showScores();
                     break;
