@@ -28,29 +28,25 @@ public class Arcade {
                 case 2:
                     playGame(new NumberGuessGame());
                     break;
-                // case 3:
-                //     playGame(new QuizGame());
-                //     break;
-                case 4:
+                case 3:
                     player.showScores();
                     break;
-                case 5:
+                case 4:
                     System.out.println("Thanks for playing!");
                     break;
                 default:
                     System.out.println("Invalid choice.");
             }
-        } while (choice != 5);
+        } while (choice != 4);
     }
 
     private void showMenu() {
         System.out.println("\n=== Command Line Arcade ===");
         System.out.println("1. Rock Paper Scissors");
         System.out.println("2. Number Guessing Game");
-        System.out.println("3. Quiz Game");
-        System.out.println("4. View Scores");
-        System.out.println("5. Quit");
-        System.out.print("Choose an option (1/2/3/4/5): ");
+        System.out.println("3. View Scores");
+        System.out.println("4. Quit");
+        System.out.print("Choose an option (1/2/3/4): ");
     }
 
     private void playGame(Game game) {
